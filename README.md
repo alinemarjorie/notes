@@ -37,7 +37,7 @@ No desafio da Api utilizei:
 - Criar conexão conforme está na documentação do [Sequelize](https://sequelize.org/master/manual/migrations.html) Migrations.
 - Executar o migrate para criar a tabela (eu inclui um script no config para fazer isso e rodei ele no terminal com "npm run [nome do script]).
 ```
-"script-test": "sequelize db:migrate"
+"script-migrate": "sequelize db:migrate"
 ```
 - Enviar requisições pelo Postman para ver se está funcionando.
 - Criar conexão e visualizar o banco pelo Dbearver. 

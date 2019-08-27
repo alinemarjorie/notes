@@ -1,0 +1,34 @@
+# Comandos de git
+
+- git init
+- git clone
+- git status
+    - [-u] para mostrar + detalhes dos arquivos
+- git diff
+    - mostra a diferença do arquivo que foi modificado
+- git add
+- git commit
+- git log
+    - [--oneline] para ver commits numa linha só
+- git checkout 
+- git fetch
+    - [--all]
+- git pull
+    - [--rebase]
+- git merge
+- git rebase 
+    - faz o que você pedir independentemente da ordem cronológica. Altera/inclui commit por commit.
+- git push
+    -[--force-with-lease]
+- git stash
+    - cria uma "área temporária" para preservar estado do repositório local
+- git reset
+    - desfaz algum commit (por a hash do commit que você quer voltar)
+- git amend
+    - editar o último commit
+- ps aux
+    - mostra todos os processos que estão rodando no computador
+    - [| grep palavra-que-quero-buscar] para mostrar processos com aquela palavra
+- sudo kill número-do-processo
+    - encerra/mata processo
+
