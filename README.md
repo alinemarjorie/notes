@@ -60,7 +60,7 @@ No desafio da Api utilizei:
 ```
 
 ### Estrutura do projeto
-O que são Models, Controlles, Migrations...
+O que são Models, Controllers, Migrations...
 
 - O arquivo na pasta de origem "app.js" é onde eu executo o servidor e chamo o banco de dados com o Sequelize.
 - A pasta controllers contem os arquivos com as funções que executam as requisições.
@@ -84,5 +84,17 @@ app.post('/transactions', function (req, res) {
     console.log("Deu erro")
     console.log(error)
   })
+})
+```
+
+- Retornar lista com todas as transações
+  - Método: GET
+```
+const models = require('./models');
+const Transactions = models.Transactions;
+
+app.get('/transactions', function (res, res) {
+  return Transactions.findAll()
+  .then(transactions => res.send(transactions))
 })
 ```

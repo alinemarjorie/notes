@@ -31,4 +31,6 @@
     - [| grep palavra-que-quero-buscar] para mostrar processos com aquela palavra
 - sudo kill número-do-processo
     - encerra/mata processo
+- git remote set-url origin
+    - alterar url do repositório, por exemplo, de https para ssh
 
