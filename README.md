@@ -6,6 +6,7 @@ Referência - Livro do [Otávio](https://otaviopace.github.io/livro-desenvolvime
 
 No desafio da Api utilizei:
 - Express
+  - Facilita as rotas para o desenvolvimento das requisições. (define as rota e chama as funções que serão executadas, conhecidas como middleware)
 - BodyPaser
 
 ```
