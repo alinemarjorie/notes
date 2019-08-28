@@ -99,3 +99,12 @@ app.get('/transactions', function (res, res) {
   .then(transactions => res.send(transactions))
 })
 ```
+
+- Usar HOOKS do Sequelize para mexer nos dados da requisição antes de salvá-las no banco
+  - Eu incluí direto na models
+```
+  Transactions.addHook('beforeCreate', transaction => {
+    console.log('card_number: ', transaction.card_number)
+    transaction.card_number = transaction.card_number.substr(-4)
+  })
+```
