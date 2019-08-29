@@ -7,8 +7,23 @@ Referência - Livro do [Otávio](https://otaviopace.github.io/livro-desenvolvime
 No desafio da Api utilizei:
 - Express
   - Facilita as rotas para o desenvolvimento das requisições. (define as rota e chama as funções que serão executadas, conhecidas como middleware)
-- BodyPaser
+```
+npm install --save express
+```
 
+- BodyPaser
+  - É um módulo capaz de converter o body da requisição para vários formatos. Um desses formatos é json, que o que eu utilizo.
+```
+npm install --save body-parser
+```
+
+- Nodemon
+  - Com o nodemon podemos rodar o terminal sem precisar reiniciar ele a cada alteração.
+```
+npm install --global nodemon
+```
+
+Subindo o servidor:
 ```
 const express = require('express')
 const bodyParser = require('body-parser')
