@@ -44,10 +44,27 @@ app.listen(PORT)
 No desafio da Api utilizei:
 - Node
 - Sequelize
+  - Sequelize é um ORM (Object-Relational Mapper) para Node.js. Eles faz o mapeamento de dados relacionais (armazenados tabelas, linhas e colunas) para objetos em JS. Ele permite criar, buscar, alterar e remover dados do banco usando objetos e métodos em JS, além de fazer alterações na estrutura das tabelas.
+```
+npm install --save sequelize
+```
+
 - Sequelize Cli
+```
+npm install --save sequelize-cli
+```
+
 - SQlite3
+  - Banco de dados
+```
+npm install --save sqlite3
+```
+
 - Postman
+  - Permite enviar requisições para o banco de dados que criamos. Indicamos a porta, método, rota e requisição.
+
 - Dbeaver
+  - Permite visualizar as tabelas do banco de dados, basta conectar com nosso arquivo database.
 
 ### Passos:
 - Criar conexão conforme está na documentação do [Sequelize](https://sequelize.org/master/manual/migrations.html) Migrations.
